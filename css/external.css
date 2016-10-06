@@ -11,7 +11,7 @@ h2 {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 60px;
 	text-align: center;
-	font-weight: 500;
+	font-weight: 300;
 	display: block;
 }
 
@@ -34,7 +34,7 @@ a {
 }
 
 .home {
-	top: 0;
+	margin: 15px;
 	position: absolute;
 	float: right;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
