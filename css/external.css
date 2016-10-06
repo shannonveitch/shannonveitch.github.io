@@ -34,11 +34,11 @@ a {
 }
 
 .home {
-	margin: 15px;
+	margin: 5px;
 	position: absolute;
 	float: right;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 25px;
+	font-size: 23px;
 }
 
 .projectimage {
