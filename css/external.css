@@ -4,6 +4,7 @@ h1 {
 	text-align: center;
 	display: block;
 	padding-top: 160px;
+	font-weight: 100;
 }
 
 h2 {
@@ -11,6 +12,7 @@ h2 {
 	font-size: 50px;
 	text-align: center;
 	display: block;
+	font-weight: 100;
 }
 
 h3 {
