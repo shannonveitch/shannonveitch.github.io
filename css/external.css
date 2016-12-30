@@ -67,14 +67,15 @@ a {
 	font-size: 15px;
 }
 
-.projects a{
+a.projects {
 	position: relative;
 	background: white;
 	visibility: hidden;
 	opacity: 0;
 	font-size: 15px;
 	color: blue;
-	text-decoration: none;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .projectimage:hover .projects {
