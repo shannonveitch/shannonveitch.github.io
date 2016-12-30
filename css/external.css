@@ -67,6 +67,16 @@ a {
 	font-size: 15px;
 }
 
+.projects a{
+	position: relative;
+	background: white;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 15px;
+	color: blue;
+	text-decoration: none;
+}
+
 .projectimage:hover .projects {
 	display: block;
 	visibility: visible;
