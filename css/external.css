@@ -50,7 +50,8 @@ a {
 	float: left;
 	height: 220px;
 	width: 330px;
-	margin: 40px;
+	margin: 30px;
+	left: 3%;
 }
 
 .projectimage img {
@@ -98,3 +99,64 @@ a.projects {
 	max-height: 100px;
 	display: inline-block;
 }
+
+.courseicon {
+	position: relative;
+	border: solid;
+	border-width: 3px;
+	border-color: black;
+	float: left;
+	height: 50px;
+	width: 330px;
+	margin: 30px;
+	left: 3%;
+}
+
+.course {
+	position: relative;
+	font-size: 15px;
+}
+
+.active {
+    background-color:#556677;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Quicksand;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 1px;
+	background: #fff;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -35px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 12px;
+}
+
+.close:hover { background: #00d9ff; }
