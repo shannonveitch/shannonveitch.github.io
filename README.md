@@ -1,7 +1,3 @@
 # shannonveitch.github.io
 
-My personal website and first introduction to web development. [Click here](http://shannonveitch.github.io) to check out my resume, contact information, and other projects I've done!
-
-Currently working on:
-- Updating resume
-- Adding a page outlining extra curricular courses I've completed
+My personal website and first introduction to web development. [Click here](http://shannonveitch.github.io) to check out my resume, contact information, and other info about me!
