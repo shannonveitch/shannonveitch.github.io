@@ -1,337 +1,121 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134667490-2"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shannon Veitch</title>
+    <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
+  </head>
 
-		  gtag('config', 'UA-134667490-2');
-		</script>
+  <body>
+    <div id="top" class="page" role="document">
+      <div>
+      <p><img src="shan.jpg" alt="Hi!" width="175" height="260" style="float: right; 
+        margin: 25px; padding-top: 25px;">
+      </p>
+    </div>
+        <h2>Shannon Veitch</h2>
+        <p>I am a PhD student in the <a target="_blank" href="https://appliedcrypto.ethz.ch/">Applied Cryptography Group</a> <img style="display: inline" src="aclogo.png" width="22" height="22"> at ETH Z&uumlrich, supervised by Kenny Paterson. I received my Master's of Mathematics in Computer Science from the University of Waterloo, where I worked in the <a target="_blank" href="https://crysp.uwaterloo.ca/">CrySP lab</a> <img style="display: inline" src="crysp-logo.png" width="22" height="22"> and was supervised by <a target="_blank" href="https://cs.uwaterloo.ca/~dstinson/">Doug Stinson</a>. Before that, I received my undergraduate degree in Combinatorics & Optimization at the University of Waterloo.</p>
+    <p style="text-align: center">
+        <a href="mailto:shannon.veitch@inf.ethz.ch">email</a> &nbsp/&nbsp
+        <a href="cv_sveitch.pdf">cv</a> &nbsp/&nbsp
+        <a href="https://scholar.google.ca/citations?user=Jd0jeqkAAAAJ&hl=en">scholar</a>
+    </p> 
+    
+  
+      <main role="main">
+        <section id="sec__research">
+          <header>
+            <h3>Research</h3>
+          </header>
+          <p> I am primarily interested in cryptography and privacy, and I sometimes dabble in combinatorics.
+          <article id="subsec__papers">
+            <h5>Preprints</h5>
+              <ul>
+              <li>F. G&uuml;nther, D. Stebila, and S. Veitch. Kemeleon Encodings. <a target="_blank" href="https://datatracker.ietf.org/doc/draft-veitch-kemeleon/">Internet-Draft.</a><label for="sn-1" class="sidenote-toggle sidenote-number"></label><input
+                type="checkbox" id="sn-1" class="sidenote-toggle" /><span class="sidenote">We recently wrote an Internet-Draft on random encodings for ML-KEM public keys and ciphertexts. I'd be happy to receive any feedback!</span> </li>
+              <li>M. Mazmudar, S. Veitch, and R. Akhavan Mahdavi. Peer2PIR: Private Queries for IPFS. <a target="_blank" href="https://arxiv.org/pdf/2405.17307">[arxiv]</a> </li>
+              </ul>
+            <h5>Papers</h5>
+              <ol>
+                <li>D. Francolla, M. Filic&#769, and S. Veitch. Privacy Implications of AMQ-Based PQ TLS Authentication. <em>ACM CoNEXT 2024, 65-72</em>.
+                    <a target="_blank" href="https://doi.org/10.1145/3680121.3697813">[article]</a></li>
+                <li>F. G&uuml;nther, D. Stebila, and S. Veitch. Obfuscated Key Exchange. <em>ACM CCS 2024, 2385-2399</em>.
+                    <a target="_blank" href="https://eprint.iacr.org/2024/1086">[eprint]</a>
+                    <a target="_blank" href="https://dl.acm.org/doi/10.1145/3658644.3690220">[article]</a></li>
+                <li>S. Veitch, and D. R. Stinson. Unconditionally secure non-malleable secret sharing and circular external difference families. <em>Designs, Codes and Cryptography, Vol. 92, 941-956, (2024)</em>.
+                    <a target="_blank" href="https://link.springer.com/article/10.1007/s10623-023-01322-5">[article]</a>
+                    <a target="_blank" href="https://arxiv.org/abs/2305.09405">[arxiv]</a></li>
+                <li>D. Keeler, C. Komlo, E. Lepert, S. Veitch, and X. He. DPrio: Efficient Differential Privacy with High Utility for Prio. <em>Proceedings on Privacy Enhancing Technologies 2023 (3), 375-390</em>.
+                    <a target="_blank" href="https://petsymposium.org/popets/2023/popets-2023-0086.php">[article]</a>
+                    <a target="_blank" href="https://github.com/DPrio-PoPETs/dprio">[artifact]</a></li>
+                <li>T. Humphries, R. A. Mahdavi, S. Veitch, and F. Kerschbaum. Selective MPC: Distributed Computation of Differentially Private Key Value Statistics. <em>ACM CCS 2022, 1459-1472</em>.
+                    <a target="_blank" href="https://arxiv.org/abs/2107.12407">[arxiv]</a>
+                    <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3548606.3560559">[article]</a>
+                    <a target="_blank" href="https://git.uwaterloo.ca/r5akhava/selective-mpc">[code]</a></li>
+                <li>N. Bindel, D. Stebila, and S. Veitch. Improved attacks against key reuse in learning with errors key exchange. <em>Latincrypt 2021, 168-188</em>.
+                    <a target="_blank" href="https://eprint.iacr.org/2020/1288">[eprint]</a>
+                    <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-030-88238-9_9">[article]</a>
+                    <a target="_blank" href="https://git.uwaterloo.ca/ssveitch/improved-key-reuse/">[code]</a></li>
+                <li>D. R. Stinson, and S. Veitch. Block-avoiding point sequencings of arbitrary length in Steiner triple systems. <em>Australasian Journal of Combinatorics, 77 (2020), 87-99</em>.
+                    <a target="_blank" href="https://arxiv.org/abs/1907.04416">[arxiv]</a> <a target="_blank" href="https://ajc.maths.uq.edu.au/pdf/77/ajc_v77_p087.pdf">[article]</a></li>
+                <li>D. L. Kreher, D. R. Stinson, and S. Veitch. Block-avoiding point sequencings of Mendelsohn triple systems. <em>Discrete Mathematics, Vol. 343, Issue 5 (2020), 111799</em>.
+                    <a target="_blank" href="https://arxiv.org/abs/1909.09101">[arxiv]</a> 
+                    <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0012365X19304819">[article]</a>
+                    <a target="_blank" href="https://arxiv.org/abs/1909.06475">[technical report]</a> </li>
+                <li>D. L. Kreher, D. R. Stinson, and S. Veitch. Block-avoiding point sequencings of directed triple systems. <em>Discrete Mathematics, Vol. 343, Issue 4 (2020), 111773</em>.
+                    <a target="_blank" href="https://arxiv.org/abs/1907.11186">[arxiv]</a> <a href="https://www.sciencedirect.com/science/article/pii/S0012365X19304558?dgcid=coauthor">[article]</a> <a target="_blank" href="https://arxiv.org/abs/1907.11144">[technical report]</a></li>
+                <li>C. J. Colbourn, D. R. Stinson, and S. Veitch. Constructions of optimal orthogonal arrays with repeated rows. <em>Discrete Mathematics, Vol. 342, Issue 9 (2019), 2455-2466</em>. <a target="_blank" href="https://arxiv.org/abs/1812.05147">[arxiv]</a> <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0012365X19301748">[article]</a>
+                    &#10025<em> Editor's Choice 2019 </em>&#10025 </li>
+              </ol>
+          </article>
+        </section>
 
-		<meta name=viewport content=“width=800”>
-		<meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-		<style type="text/css">
-			/* latin-ext */
-			@font-face {
-			font-family: 'Lato';
-			font-style: italic;
-			font-weight: 400;
-			src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-			unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-			}
-			/* latin */
-			@font-face {
-			font-family: 'Lato';
-			font-style: italic;
-			font-weight: 400;
-			src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-			}
-			/* latin-ext */
-			@font-face {
-			font-family: 'Lato';
-			font-style: italic;
-			font-weight: 700;
-			src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-			unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-			}
-			/* latin */
-			@font-face {
-			font-family: 'Lato';
-			font-style: italic;
-			font-weight: 700;
-			src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-			}
-			/* latin-ext */
-			@font-face {
-			font-family: 'Lato';
-			font-style: normal;
-			font-weight: 400;
-			src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-			unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-			}
-			/* latin */
-			@font-face {
-			font-family: 'Lato';
-			font-style: normal;
-			font-weight: 400;
-			src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-			}
-			/* latin-ext */
-			@font-face {
-			font-family: 'Lato';
-			font-style: normal;
-			font-weight: 700;
-			src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-			unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-			}
-			/* latin */
-			@font-face {
-			font-family: 'Lato';
-			font-style: normal;
-			font-weight: 700;
-			src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-			}
-			/* Color scheme stolen from Sergey Karayev */
-			a {
-			color: #1772d0;
-			text-decoration:none;
-			}
-			a:focus, a:hover {
-			color: #003366;
-			text-decoration:none;
-			}
-			body,td,th,tr,p,a {
-			font-family: 'Lato', Verdana, Helvetica, sans-serif;
-			font-size: 14px
-			}
-			strong {
-			font-family: 'Lato', Verdana, Helvetica, sans-serif;
-			font-size: 14px;
-			}
-			li {
-			margin-bottom: 5px;
-			}
-			li:last-child {
-			margin-bottom: 0px;
-			}
-			heading {
-			font-family: 'Lato', Verdana, Helvetica, sans-serif;
-			font-size: 20px;
-			}
-			subheading {
-			font-family: 'Lato', Verdana, Helvetica, sans-serif;
-			font-size: 17px;
-			}
-			papertitle {
-			font-family: 'Lato', Verdana, Helvetica, sans-serif;
-			font-size: 14px;
-			font-weight: 600
-			}
-			name {
-			font-family: 'Lato', Verdana, Helvetica, sans-serif;
-			font-size: 30px;
-			text-align: "left";
-			}
-			prn {
-			font-family: 'Lato', Verdana, Helvetica, sans-serif;
-			font-size: 14px;
-			}
-			.one
-			{
-			width: 160px;
-			height: 160px;
-			position: relative;
-			}
-			.two
-			{
-			width: 160px;
-			height: 160px;
-			position: absolute;
-			transition: opacity .2s ease-in-out;
-			-moz-transition: opacity .2s ease-in-out;
-			-webkit-transition: opacity .2s ease-in-out;
-			}
-			.fade {
-			 transition: opacity .2s ease-in-out;
-			 -moz-transition: opacity .2s ease-in-out;
-			 -webkit-transition: opacity .2s ease-in-out;
-			}
-			span.highlight {
-					background-color: #ffffd0;
-			}
-			body {
-				background-image: url(wavy-lines.png);
-			}
-		</style>
-
-		<title>Shannon Veitch</title> 
-		<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	</head>
-
-
-	<body>
-		<table width="650" border="0" align="center" cellspacing="0" cellpadding="0">
-			<tr>
-			<td>
-			<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
-				<tr>
-					<td width="66%" valign="middle">
-						<p> <name>Shannon Veitch</name> &nbsp; <subheading>she/her</subheading> </p>
-						<p>I am a doctoral student in the <a target="_blank" href="https://appliedcrypto.ethz.ch/">Applied Cryptography Group</a> <img src="aclogo.png" height=13px;> at ETH Z&uumlrich, supervised by Kenny Paterson.
-						</p>
-			<p>I received my Master's of Mathematics in Computer Science from the University of Waterloo, where I worked in the <a target="_blank" href="https://crysp.uwaterloo.ca/">CrySP lab</a> <img src="crysp-logo.png" height=13px;> and was supervised by <a target="_blank" href="https://cs.uwaterloo.ca/~dstinson/">Doug Stinson</a>. Before that, I received my undergraduate degree in Combinatorics & Optimization at the University of Waterloo.
-						</p>
-						<p align=center>
-							<a href="mailto:shannon.veitch@inf.ethz.ch">email</a> &nbsp/&nbsp
-							<a href="cv_sveitch.pdf">cv</a> &nbsp/&nbsp
-							<a href="https://scholar.google.ca/citations?user=Jd0jeqkAAAAJ&hl=en">scholar</a>
-						</p>
-					</td>
-					<td style="padding:2.5%;width:40%;max-width:40%">
-		              <img style="width:100%;max-width:100%" alt="profile photo" src="headshot-1.png" class="hoverZoomLink">
-		            </td>
-				</tr>
-			</table>
-
-			<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
-				<tr>
-					<td width="100%" valign="middle">
-						<heading>Research</heading>
-						<p>My research interests are in the areas of cryptography and privacy.</p>
-					</td>
-				</tr>
-			</table>
-
-
-			<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
-
-				<tr>
-					<td width="100%" valign="middle">
-						<subheading>Preprints</subheading><br><br>
-						<papertitle>Peer2PIR: Private Queries for IPFS</papertitle> <a target="_blank" href="https://arxiv.org/pdf/2405.17307">[arxiv]</a>
-						<br>
-						Miti Mazmudar, Shannon Veitch, Rasoul Akhavan Mahdavi
-					</td>
-				</tr>
-				<tr>
-					<td width="100%" valign="middle">
-						<papertitle>Obfuscated Key Exchange</papertitle> <a target="_blank" href="https://eprint.iacr.org/2024/1086">[eprint]</a>
-						<br>
-						Felix G&uuml;nther, Douglas Stebila, Shannon Veitch
-						<br>
-						<em>To appear at CCS 2024.</em>
-						<!-- <br>
-						<a target="_blank" href="https://eprint.iacr.org/2024/1086">[eprint]</a> -->
-					</td>
-				</tr>
-
-				<tr>
-					<td width="100%" valign="middle">
-						<subheading>Publications</subheading><br><br>
-						<papertitle>Unconditionally Secure Non-malleable Secret Sharing and Circular External Difference Families</papertitle>
-						<br>
-						Shannon Veitch, Douglas R. Stinson
-						<br>
-						<em>Designs, Codes and Cryptography, Vol. 92, 941-956, (2024)</em>
-						<br>
-						<a target="_blank" href="https://link.springer.com/article/10.1007/s10623-023-01322-5">[article]</a>
-						<a target="_blank" href="https://arxiv.org/abs/2305.09405">[arxiv]</a>
-					</td>
-				</tr>
-				<tr>
-					<td width="100%" valign="middle">
-						<papertitle>DPrio: Efficient Differential Privacy with High Utility for Prio</papertitle>
-						<br>
-						Dana Keeler, Chelsea Komlo, Emily Lepert, Shannon Veitch, Xi He
-						<br>
-						<em>Proceedings on Privacy Enhancing Technologies 2023 (3), 375-390</em>
-						<br>
-						<a target="_blank" href="https://petsymposium.org/popets/2023/popets-2023-0086.php">[article]</a>
-						<a target="_blank" href="https://github.com/DPrio-PoPETs/dprio">[artifact]</a>
-					</td>
-				</tr>
-				<tr>
-					<td width="100%" valign="middle">
-						<papertitle>Selective MPC: Distributed Computation of Differentially Private Key Value Statistics</papertitle>
-						<br>
-						Thomas Humphries, Rasoul Akhavan Mahdavi, Shannon Veitch, Florian Kerschbaum
-						<br>
-						<em>ACM CCS 2022, 1459-1472</em>
-						<br>
-						<a target="_blank" href="https://arxiv.org/abs/2107.12407">[arxiv]</a>
-						<a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3548606.3560559">[article]</a>
-						<a target="_blank" href="https://git.uwaterloo.ca/r5akhava/selective-mpc">[code]</a>
-					</td>
-				</tr>
-				<tr>
-					<td width="100%" valign="middle">
-						<papertitle> Improved attacks against key reuse in learning with errors key exchange</papertitle>
-						<br>
-						Nina Bindel, Douglas Stebila, Shannon Veitch
-						<br>
-						<em>Latincrypt 2021, 168-188</em>
-						<br>
-						<a target="_blank" href="https://eprint.iacr.org/2020/1288">[eprint]</a>
-						<a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-030-88238-9_9">[article]</a>
-						<a target="_blank" href="https://git.uwaterloo.ca/ssveitch/improved-key-reuse/">[code]</a>
-					</td>
-				</tr>
-
-				<tr>
-					<td width="100%" valign="middle">
-						<papertitle>Block-avoiding point sequencings of arbitrary length in Steiner triple systems</papertitle>
-						<br>
-						Douglas R. Stinson, Shannon Veitch
-						<br>
-						<em>Australasian Journal of Combinatorics, 77 (2020), 87-99</em>
-						<br>
-						<a target="_blank" href="https://arxiv.org/abs/1907.04416">[arxiv]</a> <a target="_blank" href="https://ajc.maths.uq.edu.au/pdf/77/ajc_v77_p087.pdf">[article]</a>
-					</td>
-				</tr>
-
-				<tr>
-					<td width="100%" valign="middle">
-						<papertitle>Block-avoiding point sequencings of Mendelsohn triple systems</papertitle>
-						<br>
-						Donald L. Kreher, Douglas R. Stinson, Shannon Veitch
-						<br>
-						<em>Discrete Mathematics, Vol. 343, Issue 5 (2020), 111799</em>
-						<br>
-						<a target="_blank" href="https://arxiv.org/abs/1909.09101">[arxiv]</a> 
-						<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0012365X19304819">[article]</a>
-						<a target="_blank" href="https://arxiv.org/abs/1909.06475">[technical report]</a> 
-					</td>
-				</tr>
-
-				<tr>
-					<td width="100%" valign="middle">
-						<papertitle>Block-avoiding point sequencings of directed triple systems</papertitle>
-						<br>
-						Donald L. Kreher, Douglas R. Stinson, Shannon Veitch
-						<br>
-						<em>Discrete Mathematics, Vol. 343, Issue 4 (2020), 111773</em>
-						<br>
-						<a target="_blank" href="https://arxiv.org/abs/1907.11186">[arxiv]</a> <a href="https://www.sciencedirect.com/science/article/pii/S0012365X19304558?dgcid=coauthor">[article]</a> <a target="_blank" href="https://arxiv.org/abs/1907.11144">[technical report]</a>
-					</td>
-				</tr>
-
-				<tr>
-					<td width="100%" valign="middle">
-						<papertitle>Constructions of optimal orthogonal arrays with repeated rows</papertitle>
-						<br>
-						Charles J. Colbourn, Douglas R. Stinson, Shannon Veitch
-						<br>
-						<em>Discrete Mathematics, Vol. 342, Issue 9 (2019), 2455-2466</em>
-						<br>
-						<a target="_blank" href="https://arxiv.org/abs/1812.05147">[arxiv]</a> <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0012365X19301748">[article]</a>
-						<br>
-						&#10025<em> Editor's Choice 2019 </em>&#10025
-					</td>
-				</tr>
-			</table>
-
-			<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-				<tr>
-					<td>
-						<br>
-						<p align="right">
-							<font size="2">
-								<a target="_blank" href="https://jonbarron.info/">website template</a>
-								</font>
-						</p>
-					</td>
-				</tr>
-			</table>
-
-			</td>
-			</tr>
-		</table>
-	</body>
+        <section id="sec__talks">
+          <h3>Talks</h3>
+          <p>Here's a selection of some talks I've given recently.</p>
+          <ul style="list-style-type: circle;">
+              <li> <b> Obfuscated Key Exchange</b> 
+                <ul style="list-style-type: '– ';"> 
+                  <li> <a target="_blank" href="https://rwc.iacr.org/2024/">Real World Crypto 2024</a>, Toronto, Canada <a target="_blank" href="https://iacr.org/submit/files/slides/2024/rwc/rwc2024/41/slides.pdf">[slides]</a> <a target="_blank" href="https://www.youtube.com/watch?v=QPcHR_JnGOQ">[video]</a></a></li>
+                  <li> <a target="_blank" href="https://skechworkshop.github.io/">SKECH 2024</a>, Bertinoro, Italy</li>
+                  <li> <a target="_blank" href="https://www.sigsac.org/ccs/CCS2024/">CCS 2024</a>, Salt Lake City, USA</li>
+                </ul>
+              </li>
+              <li> <b> Bridging the Gap between Privacy Incidents and PETs</b>
+                <ul style="list-style-type: '– ';">
+                  <li> <a target="_blank" href="https://petsymposium.org/2023/hotpets.php">HotPETs 2023</a> Lausanne, Switzerland <a target="_blank" href="https://www.youtube.com/watch?v=5UipOUFaPEk">[video]</a> &#10025<em> Best HotPETs Talk </em>&#10025 </li>
+                </ul>
+          </ul>
+      </section>
+        <!-- <section id="sec__teaching">
+            <h3>Teaching</h3>
+            <p>I've held teaching assistantship positions for the following courses.</p>
+          <h5>ETH Zurich</h5>
+          <article id="subsec_eth">
+              <ol>
+               <li> Applied Cryptography (Spring 2024)</li>
+               <li> Discrete Mathematics (Autumn 2023, Autumn 2024) </li>
+               <li> Computer Science II (Spring 2024)</li>
+              </ol>
+          </article>
+          <h5>University of Waterloo</h5>
+          <article id="subsec_uw">
+            <ol>
+                <li> SYDE361 Engineering Design (Spring 2022) </li>
+                <li> SYDE362 Capstone Project (Winter 2022) </li>
+                <li> SYDE161 Introduction to Design (Fall 2021) </li>
+                <li> CS458/658 Computer Security and Privacy (Winter 2021, Spring 2021) </li>
+                <li> CS135 Designing Functional Programs (Fall 2020) </li>
+                <li> MATH135 Algebra for Honours Mathematics (Fall 2017, Winter 2018) </li>
+            </ol>
+          </article>
+        </section> -->
+      </main>
+    </div>
+  
+    <p style="float:right"> <small> <a href="https://latex.vercel.app/">style source</a> </small> </p>
+    <script async defer data-domain="latex.now.sh" src="https://plausible.io/js/plausible.js"></script>
+  </body>
+  
+  </html>
